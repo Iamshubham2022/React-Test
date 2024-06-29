@@ -1,11 +1,14 @@
 import React from 'react' 
-import {style} from './Button.module.css'
+import style from './Button.module.css'
 
-const Button = () => {
+const Button = ({isOutline , text , icon}) => {
+    // const {isOutline , text , icon} =props
   return (
-    <div className={style.primary_btn}>
-      Button
-    </div>
+    <button className={isOutline ? style.outline_btn :style.primary_btn}>
+        {icon}
+        {text}
+       
+    </button>
   )
 }
 

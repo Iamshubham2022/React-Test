@@ -4,8 +4,8 @@ import style from './Contactheader.module.css'
 const ContactHeader = () => {
   return (
     <div className={`${style.contact_section} container`}>
-      <h1>CONTACT US</h1>
-      <p>LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU! WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE, EMAIL, OR SOCIAL MEDIA. </p>
+      <h1>Hii, I'm Shubham Jaiswal</h1>
+      <p>A frontend developer with some experience in creating responsive web applications. I specialize in React and have built projects like an e-commerce platform and a real-time chat app. </p>
     </div>
   )
 }
