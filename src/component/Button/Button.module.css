@@ -1,0 +1,9 @@
+.primary_btn{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}

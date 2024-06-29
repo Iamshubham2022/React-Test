@@ -1,9 +1,11 @@
 import React from 'react'
 import style from './ContactForm.module.css'
+import Button from '../Button/Button'
 
 const Contactform = () => {
   return (
     <section className={`${style.container}`}>
+      <Button/>
         <div className={style.Container_form}>
 
         </div>
