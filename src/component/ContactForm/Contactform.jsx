@@ -10,8 +10,8 @@ import { MdMailOutline } from "react-icons/md";
 const Contactform = () => {
   return (
     <section className={`${style.container}`}>
-      
       <div className={style.Container_form}>
+        <h2 className={style.Cant_logo}>ContactUs</h2>
         <div className={style.top_btn}>
           <Button text="VIA SUPPORT CHAT" icon={<MdMessage fontSize="24px" />} />
           <Button text="VIA CALL" icon={<MdPhoneCallback fontSize="24px" />} />
@@ -34,9 +34,9 @@ const Contactform = () => {
             display: "flex",
             justifyContent: "end",
           }
-          } 
+          }
           ><Button text="SUBMIT" /></div>
-          
+
         </form>
 
       </div>
