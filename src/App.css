@@ -18,6 +18,5 @@ body {
 
 .main_container{
   display: flex;
-  height: calc(100vh-72px);
   flex-direction: column;
 }
